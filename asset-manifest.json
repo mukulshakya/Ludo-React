@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ludo/static/css/main.6729b38a.chunk.css",
+    "main.js": "/ludo/static/js/main.c609e3fc.chunk.js",
+    "main.js.map": "/ludo/static/js/main.c609e3fc.chunk.js.map",
+    "runtime-main.js": "/ludo/static/js/runtime-main.b468e77a.js",
+    "runtime-main.js.map": "/ludo/static/js/runtime-main.b468e77a.js.map",
+    "static/js/2.8d5ce882.chunk.js": "/ludo/static/js/2.8d5ce882.chunk.js",
+    "static/js/2.8d5ce882.chunk.js.map": "/ludo/static/js/2.8d5ce882.chunk.js.map",
+    "static/js/3.6f8aadca.chunk.js": "/ludo/static/js/3.6f8aadca.chunk.js",
+    "static/js/3.6f8aadca.chunk.js.map": "/ludo/static/js/3.6f8aadca.chunk.js.map",
+    "index.html": "/ludo/index.html",
+    "static/css/main.6729b38a.chunk.css.map": "/ludo/static/css/main.6729b38a.chunk.css.map",
+    "static/js/2.8d5ce882.chunk.js.LICENSE.txt": "/ludo/static/js/2.8d5ce882.chunk.js.LICENSE.txt",
+    "static/media/coinMove.c8776b00.mp3": "/ludo/static/media/coinMove.c8776b00.mp3",
+    "static/media/coinPalegreen.5eb344c3.svg": "/ludo/static/media/coinPalegreen.5eb344c3.svg",
+    "static/media/coinRoyalblue.c04c7385.svg": "/ludo/static/media/coinRoyalblue.c04c7385.svg",
+    "static/media/coinTomato.198e3c8a.svg": "/ludo/static/media/coinTomato.198e3c8a.svg",
+    "static/media/coinYellow.8f66742b.svg": "/ludo/static/media/coinYellow.8f66742b.svg",
+    "static/media/diceRoll2.55ad9bac.mp3": "/ludo/static/media/diceRoll2.55ad9bac.mp3",
+    "static/media/App.css": "/ludo/static/media/homeCenter.3a5caf75.svg",
+    "static/media/starOutline3.638b0c2b.png": "/ludo/static/media/starOutline3.638b0c2b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b468e77a.js",
+    "static/js/2.8d5ce882.chunk.js",
+    "static/css/main.6729b38a.chunk.css",
+    "static/js/main.c609e3fc.chunk.js"
+  ]
+}

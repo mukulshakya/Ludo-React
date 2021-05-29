@@ -1,0 +1,12 @@
+<svg width="184" height="183" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g>
+  <title>Layer 1</title>
+  <path d="m-0.91708,183.5566l186.26563,-186.26563" id="path15365" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="2.07" stroke="#000000" fill="#6700dc"/>
+  <path d="m-0.91708,-2.70903l186.26563,186.26563" id="path15369" stroke-dashoffset="0" stroke-miterlimit="4" stroke-width="2.07" stroke="#000000" fill="#6700dc"/>
+  <path d="m47.10913,137.37083l45.10522,-45.10523l45.10523,45.10523l45.10523,45.10522l-90.21046,0l-90.21045,0l45.10523,-45.10522z" id="path15391" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="0.89118" stroke="#f30f00" fill="#ff6347"/>
+  <path d="m139.00426,135.32913l-44.88941,-44.89095l44.99784,-44.9963l44.99783,-44.99629l0,89.88725c0,49.43799 -0.0488,89.88725 -0.10842,89.88725c-0.0596,0 -20.30866,-20.20093 -44.99784,-44.89096z" id="path15393" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="0.89118" stroke="#008cf8" fill="#4169e1"/>
+  <path stroke="#ffc400" d="m47.17931,43.50418l-44.99629,-44.99784l89.99413,0l89.99412,0l-44.99629,44.99784c-24.74796,24.74881 -44.99698,44.99783 -44.99783,44.99783c-0.00085,0 -20.24988,-20.24902 -44.99784,-44.99783z" id="path15395" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="0.89118" fill="#ffff00"/>
+  <path d="m0.44559,90.33284l0,-89.88725l44.99783,44.99629l44.99784,44.9963l-44.88941,44.89095c-24.68918,24.69003 -44.93821,44.89096 -44.99784,44.89096c-0.0596,0 -0.10842,-40.44926 -0.10842,-89.88725z" id="path15397" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke-width="0.89118" stroke="#00a300" fill="#98fb98"/>
+ </g>
+
+</svg>
