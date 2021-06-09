@@ -1,0 +1,205 @@
+:root {
+  --homeBoxDimension: 160px;
+  --gridRowWidth: 80px;
+  --stepBoxDimension: 26.67px;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.boardWrapper,
+.innerRow,
+.stepRow,
+.homeBox,
+.dice {
+  display: grid;
+}
+
+.stepBox,
+.dice,
+.homeCenterCoin {
+  width: var(--stepBoxDimension);
+  height: var(--stepBoxDimension);
+}
+
+.gameSetup,
+.stepBox,
+.homeBoxInner,
+.homeCenterCoin,
+.homeCenter > div,
+.dice > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeCenter,
+.homeBoxInner {
+  width: var(--gridRowWidth);
+  height: var(--gridRowWidth);
+}
+
+.homeBox,
+.homeBoxOverlay {
+  height: var(--homeBoxDimension);
+  width: var(--homeBoxDimension);
+}
+
+.stepBox,
+.homeBoxInner {
+  border: 1px solid #000;
+}
+
+.homeBox,
+.stepBox {
+  position: relative;
+  z-index: 1;
+}
+
+.homeBoxInner,
+.dice > div > div {
+  border-radius: 50%;
+}
+
+.App {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.gameSetup {
+  position: absolute;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  opacity: 0.9;
+  flex-direction: column;
+  transition: transform 0.5s;
+}
+
+.gameSetupPlayerSelectBtn {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 5px 30px;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.gameSetupPlayerSelectBtn:hover {
+  border-color: aqua;
+  color: aqua;
+  box-shadow: 1px 1px 2px;
+  transform: scale(1.1);
+}
+
+.gameSetup.scaleDown {
+  transform-origin: top;
+  transform: scaleY(0);
+}
+
+.boardWrapper {
+  grid-template-rows: var(--homeBoxDimension) var(--gridRowWidth) var(
+      --homeBoxDimension
+    );
+}
+
+.innerRow {
+  grid-template-columns: var(--homeBoxDimension) var(--gridRowWidth) var(
+      --homeBoxDimension
+    );
+}
+
+.stepRow {
+  grid-template-columns: repeat(3, var(--stepBoxDimension));
+}
+
+.stepBox {
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.homeBox {
+  grid-template-columns: repeat(2, var(--gridRowWidth));
+}
+
+.homeCenter {
+  overflow: hidden;
+  background-image: url("../assets/homeCenter.svg");
+  background-size: cover;
+}
+
+.homeCenter > div {
+  width: var(--gridRowWidth);
+  height: calc(var(--gridRowWidth) / 3);
+}
+
+.coin {
+  width: calc(var(--stepBoxDimension) / 100 * 70);
+  height: calc(var(--stepBoxDimension) / 100 * 70);
+  opacity: 1;
+  z-index: 2;
+  fill: red;
+}
+
+.coin > .haveWon {
+  transform: scale(0.7);
+}
+
+.dice {
+  background-color: #ccc;
+  box-shadow: 1.5px 1.5px 2px;
+  border-radius: 20%;
+  padding: 3px;
+}
+
+.dice > div {
+  padding: 1.2px;
+}
+
+.dice > div > div {
+  width: 5px;
+  height: 5px;
+  margin: auto;
+  box-shadow: 0.5px 0.5px 1px #000;
+}
+
+.dice.dice-animation {
+  animation: dice-rotate 500ms;
+}
+
+.coin.current-player-animation {
+  animation: current-player-animation 500ms alternate infinite;
+}
+
+.homeBoxOverlay {
+  position: absolute;
+  border: 3px solid;
+  box-shadow: 3px 3px 5px;
+}
+
+@keyframes dice-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes current-player-animation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
